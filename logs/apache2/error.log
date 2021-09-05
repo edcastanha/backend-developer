@@ -11,3 +11,44 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sun Sep 05 03:36:51.323859 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Sun Sep 05 03:39:36.946563 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 05 03:39:43.709001 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 03:39:43.709397 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 05 03:40:55.357230 2021] [autoindex:error] [pid 18] [client 172.27.0.1:35332] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:40:56.276567 2021] [autoindex:error] [pid 19] [client 172.27.0.1:35336] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:41:04.520968 2021] [autoindex:error] [pid 20] [client 172.27.0.1:35328] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:50:32.464399 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 05 03:50:51.153931 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 03:50:51.154538 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 05 03:51:20.661374 2021] [autoindex:error] [pid 18] [client 172.27.0.1:56466] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:51:58.031763 2021] [autoindex:error] [pid 19] [client 172.27.0.1:56468] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:53:18.976637 2021] [autoindex:error] [pid 23] [client 172.27.0.1:56484] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 03:54:23.117808 2021] [autoindex:error] [pid 20] [client 172.27.0.1:56496] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 04:00:04.126603 2021] [autoindex:error] [pid 23] [client 172.27.0.1:56508] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 04:00:08.703132 2021] [autoindex:error] [pid 18] [client 172.27.0.1:56512] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Sep 05 04:01:47.354181 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 05 04:03:16.784168 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 04:03:16.784608 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/api-loopa/publuc] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 05 04:10:47.523185 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 04:10:47.523693 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 05 04:19:50.824145 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  Failed loading Zend extension 'xdebug' (tried: ext/xdebug (ext/xdebug: cannot open shared object file: No such file or directory), ext/xdebug.so (ext/xdebug.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo.so' (tried: ext/pdo.so (ext/pdo.so: cannot open shared object file: No such file or directory), ext/pdo.so.so (ext/pdo.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql.so' (tried: ext/pdo_mysql.so (ext/pdo_mysql.so: cannot open shared object file: No such file or directory), ext/pdo_mysql.so.so (ext/pdo_mysql.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'exif.so' (tried: ext/exif.so (ext/exif.so: cannot open shared object file: No such file or directory), ext/exif.so.so (ext/exif.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'gettext.so' (tried: ext/gettext.so (ext/gettext.so: cannot open shared object file: No such file or directory), ext/gettext.so.so (ext/gettext.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl.so' (tried: ext/intl.so (ext/intl.so: cannot open shared object file: No such file or directory), ext/intl.so.so (ext/intl.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli.so' (tried: ext/mysqli.so (ext/mysqli.so: cannot open shared object file: No such file or directory), ext/mysqli.so.so (ext/mysqli.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql.so' (tried: ext/pdo_mysql.so (ext/pdo_mysql.so: cannot open shared object file: No such file or directory), ext/pdo_mysql.so.so (ext/pdo_mysql.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis' (tried: ext/redis (ext/redis: cannot open shared object file: No such file or directory), ext/redis.so (ext/redis.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: ext/sodium (ext/sodium: cannot open shared object file: No such file or directory), ext/sodium.so (ext/sodium.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip.so' (tried: ext/zip.so (ext/zip.so: cannot open shared object file: No such file or directory), ext/zip.so.so (ext/zip.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Sun Sep 05 04:19:52.699759 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 04:19:52.700180 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 05 04:31:59.308756 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.23 configured -- resuming normal operations
+[Sun Sep 05 04:31:59.309441 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

@@ -13,14 +13,12 @@
 |
 */
 
+
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-
-/** @var \Laravel\Lumen\Routing\Router $router */
-$router->group(['prefix' => 'api/v1'], function () use ($router) {
-    $router->get('/', function () use ($router) {
+$router->get('/api/v1', function () {
         return [
             'status' => 'success',
             'message' => 'Bem Vindo API Loopa',
@@ -30,5 +28,4 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
                 'email' => 'edcastanha@gmail.com'
             ]
         ];
-    });
 });
