@@ -18,14 +18,7 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/api/v1', function () {
-        return [
-            'status' => 'success',
-            'message' => 'Bem Vindo API Loopa',
-            'data' => [
-                'version' => '1.0.0',
-                'author' => 'Edson Lourenço B. Filho',
-                'email' => 'edcastanha@gmail.com'
-            ]
-        ];
+
+$router->group(['prefix' => '/api'], function () use ($router) {
+    $router->get('/v1', 'TestController@index');
 });
