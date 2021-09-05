@@ -1,0 +1,10 @@
+/www/api-loopa/vendor
+/.idea
+.vscode
+Homestead.json
+Homestead.yaml
+www/api-loopa/.env
+www/api-loopa/.env.example
+.env
+
+.phpunit.result.cache
