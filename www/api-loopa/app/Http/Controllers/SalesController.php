@@ -34,9 +34,9 @@ class SalesController extends Controller
                 ])) {
                     return response()->json(['error' => 'File is not valid'], 400);
             }
-
-        
-        foreach (file($request->file) as $row) {
+            $file = fopen($request->file(), 'r');
+            return response()->json(['data' => $file], 200);
+        foreach ($file as $row) {
             $row = trim($row);
             if (!empty($row)) {
                 $cep = substr($row, 43, 8);
