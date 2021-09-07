@@ -20,5 +20,6 @@ $router->get('/', function () use ($router) {
 
 
 $router->group(['prefix' => '/api'], function () use ($router) {
-    $router->get('/v1', 'TestController@index');
+    $router->get('/', 'SalesController@index');
+    $router->post('filesales', 'SalesController@decodedFile');
 });
